@@ -1,0 +1,9 @@
+opencv-python
+torch
+torchvision
+pyyaml
+easydict
+scikit-image
+matplotlib
+scipy
+scikit-learn

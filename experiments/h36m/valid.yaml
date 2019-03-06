@@ -1,0 +1,44 @@
+GPUS: '0'
+DATA_DIR: ''
+OUTPUT_DIR: 'output'
+LOG_DIR: 'log'
+WORKERS: 8
+PRINT_FREQ: 100
+EXP_NAME: 'fully_supervised'
+CUDNN:
+  BENCHMARK: True
+  DETERMINISTIC: False
+  ENABLED: True
+DATASET:
+  DATASET: h36m
+  ROOT: 'data/h36m/'
+  TEST_SET: valid
+  TRAIN_SET: train-fs
+  FLIP: false
+  TRI: false
+  MPII_ORDER: false
+MODEL:
+  NAME: pose3d_resnet
+  PRETRAINED: ''
+  RESUME: 'models/h36m/fully_supervised.pth.tar'
+  NUM_JOINTS: 17
+  VOLUME: true
+  EXTRA:
+    FINAL_CONV_KERNEL: 1
+    DECONV_WITH_BIAS: false
+    NUM_DECONV_LAYERS: 3
+    NUM_DECONV_FILTERS:
+      - 256
+      - 256
+      - 256
+    NUM_DECONV_KERNELS:
+      - 4
+      - 4
+      - 4
+    NUM_LAYERS: 50
+TEST:
+  BATCH_SIZE: 32
+  FLIP_TEST: false
+  MODEL_FILE: ''
+DEBUG:
+  DEBUG: false

@@ -1,0 +1,31 @@
+GPUS: '0'
+DATA_DIR: ''
+OUTPUT_DIR: 'output'
+LOG_DIR: 'log'
+WORKERS: 8
+PRINT_FREQ: 100
+EXP_NAME: 'self_supervised'
+CUDNN:
+  BENCHMARK: True
+  DETERMINISTIC: False
+  ENABLED: True
+DATASET:
+  DATASET: h36m
+  ROOT: 'data/h36m/'
+  TEST_SET: valid
+  TRAIN_SET: train-ss
+  FLIP: false
+  TRI: false
+  MPII_ORDER: true
+MODEL:
+  NAME: pose3d_resnet
+  PRETRAINED: ''
+  RESUME: 'models/h36m/self_supervised_with_rt.pth.tar'
+  NUM_JOINTS: 16
+  VOLUME: true
+TEST:
+  BATCH_SIZE: 32
+  FLIP_TEST: false
+  MODEL_FILE: ''
+DEBUG:
+  DEBUG: false
