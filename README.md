@@ -2,9 +2,9 @@
 
 ## Introduction
 This is a pytorch implementation of 
-[*Self-Supervised Learning of 3D Human Pose using Multi-view Geometry*](https://goo.gl/b5jCf8) paper.
+[*Self-Supervised Learning of 3D Human Pose using Multi-view Geometry*](https://arxiv.org/abs/1903.02330) paper.
 
-> [**Self-Supervised Learning of 3D Human Pose using Multi-view Geometry**](https://goo.gl/b5jCf8),            
+> [**Self-Supervised Learning of 3D Human Pose using Multi-view Geometry**](https://arxiv.org/abs/1903.02330),            
 > [Muhammed Kocabas](http://user.ceng.metu.edu.tr/~e2270981/)\*, [Salih Karagoz](https://salihkaragoz.github.io/)\*, 
 [Emre Akbas](http://user.ceng.metu.edu.tr/~emre/),        
 > *IEEE Computer Vision and Pattern Recognition, 2019* (\*equal contribution)   
@@ -135,7 +135,7 @@ Download pretrained models using the given links, and put them under indicated p
 - **Self Supervised + refinement:** trained with a refinement module. For details of this setting please refer to
 [`refiner/README.md`](refiner/README.md)
 
-Check out the [paper](https://goo.gl/b5jCf8) for more details about training strategies of each model.
+Check out the [paper](https://arxiv.org/abs/1903.02330) for more details about training strategies of each model.
 
 #### MPII
 To train an EpipolarPose model from scratch, you would need the model pretrained on MPII dataset.
@@ -168,7 +168,7 @@ Fully supervised model:
 python pose_estimation/train.py --cfg experiments/h36m/train.yaml
 ```
 ### Citation
-If this work is useful for your research, please cite our [paper](https://goo.gl/b5jCf8):
+If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/1903.02330):
 ```
 @inproceedings{kocabas2019epipolar,
     author = {Kocabas, Muhammed and Karagoz, Salih and Akbas, Emre},
