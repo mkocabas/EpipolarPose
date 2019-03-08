@@ -147,6 +147,8 @@ To train an EpipolarPose model from scratch, you would need the model pretrained
 | MPII Integral | resnet18       | 84.7                    | [model](https://drive.google.com/open?id=1ygdMG5bHcgFSkNCIMJbyDkKhUQebXaoY) | `models/mpii/mpii_integral_r18.pth.tar`|
 | MPII Integral | resnet34       | 86.3                    | [model](https://drive.google.com/open?id=1MFzLysHRq8SbO3V6L8o0ZMTKCIsDDGMW) | `models/mpii/mpii_integral_r34.pth.tar`|
 | MPII Integral | resnet50       | 88.3                    | [model](https://drive.google.com/open?id=19ee09gyyPOyrAzarQgM_YXqpaCthAfED) | `models/mpii/mpii_integral.pth.tar`|
+| MPII heatmap | resnet50       | 88.3                    | [model](https://drive.google.com/open?id=1R4-3uA1o10Gm7zPEemSE2gUBrEF46D1O) | `models/mpii/mpii_heatmap.pth.tar`|
+
 
 ### Validation on H36M using pretrained models
 In order to run validation script with a self supervised model, update the `MODEL.RESUME` field of 
