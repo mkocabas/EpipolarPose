@@ -18,7 +18,7 @@ DATASET:
   OCCLUSION: false
 MODEL:
   NAME: pose3d_resnet
-  PRETRAINED: 'models/mpii/mpii_integral.pth.tar'
+  PRETRAINED: 'models/mpii/mpii_heatmap.pth.tar'
   RESUME: ''
   NUM_JOINTS: 16
   VOLUME: true
