@@ -84,9 +84,6 @@ def main():
 
     # copy model file
     this_dir = os.path.dirname(__file__)
-    shutil.copy2(
-        os.path.join(this_dir, './lib/models', config.MODEL.NAME + '.py'),
-        final_output_dir)
 
     shutil.copy2(
         args.cfg,
