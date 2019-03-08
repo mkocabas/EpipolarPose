@@ -96,6 +96,8 @@ please download image files from
 Extract it under `${ROOT}/data/mpii` directory. If you already have the MPII dataset, you can create a soft link to images:
 `ln -s <path_to_mpii_images> ${ROOT}/data/mpii/images`
 
+During training, we make use of [synthetic-occlusion](https://github.com/isarandi/synthetic-occlusion). If you want to use it please download the Pascal VOC dataset as instructed in their [repo](https://github.com/isarandi/synthetic-occlusion#getting-started) and update the `VOC` parameter in configuration files.
+
 After downloading the datasets your `data` directory tree should look like this: 
 ```
 ${ROOT}
