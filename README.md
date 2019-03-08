@@ -44,8 +44,8 @@ See [`requirements.txt`](requirements.txt) for other dependencies.
 ## Quick start
 ### Installation
 1. Install pytorch >= v1.0.0 following [official instructions](https://pytorch.org/).
-   _Note that if you use pytorch's version < v1.0.0, you should following the instruction at 
-   <https://github.com/Microsoft/human-pose-estimation.pytorch> to disable cudnn's implementations of 
+   _Note that if you use pytorch's version < v1.0.0, you should follow the instructions at 
+   <https://github.com/Microsoft/human-pose-estimation.pytorch> to disable cudnn's implementation of 
    BatchNorm layer. We encourage you to use higher pytorch's version(>=v1.0.0)_
 2. Clone this repo, and we will call the directory that you cloned as `${ROOT}`
 3. Install dependencies.
@@ -163,11 +163,11 @@ python scripts/valid.py --cfg experiments/h36m/valid.yaml
 ### Training on H36M
 To train a self supervised model, try:
 ```
-python pose_estimation/train.py --cfg experiments/h36m/train-ss.yaml
+python scripts/train.py --cfg experiments/h36m/train-ss.yaml
 ```
 Fully supervised model:
 ```
-python pose_estimation/train.py --cfg experiments/h36m/train.yaml
+python scripts/train.py --cfg experiments/h36m/train.yaml
 ```
 ### Citation
 If this work is useful for your research, please cite our [paper](https://arxiv.org/abs/1903.02330):
