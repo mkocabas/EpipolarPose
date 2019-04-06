@@ -1,3 +1,5 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/self-supervised-learning-of-3d-human-pose/3d-human-pose-estimation-human36m)](https://paperswithcode.com/sota/3d-human-pose-estimation-human36m?p=self-supervised-learning-of-3d-human-pose)
+
 # Self-Supervised Learning of 3D Human Pose using Multi-view Geometry (accepted to CVPR2019)
 
 ## Introduction
