@@ -24,7 +24,7 @@ Here we show some sample outputs from our model on the Human3.6M dataset.
 For each set of results we first show the input image, followed by the ground truth, 
 fully supervised model and self supervised model outputs.
 
-<p align="center"><img src="https://s2.eksiup.com/5b344ac2a392.png" width="100%" alt=""/></p>
+<p align="center"><img src="https://i.imgur.com/jZph53h.png" width="100%" alt=""/></p>
 
 ### Video Demo
 <p align="center"><a target=_blank href="http://www.youtube.com/watch?v=lkXBiKRfRDw"><img src="http://img.youtube.com/vi/lkXBiKRfRDw/0.jpg" width="50%" alt="" /></a></p>
