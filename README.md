@@ -41,7 +41,7 @@ fully supervised model and self supervised model outputs.
 
 ## Requirements
 The code is developed using python 3.7.1 on Ubuntu 16.04. NVIDIA GPUs ared needed to train and test. 
-See [`requirements.txt`](requirements.txt) or ['environment.yml'](environment.yml) for other dependencies.
+See [`requirements.txt`](requirements.txt) or [`environment.yml`](environment.yml) for other dependencies.
 
 ## Quick start
 ### Installation
