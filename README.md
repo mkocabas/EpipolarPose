@@ -41,7 +41,7 @@ fully supervised model and self supervised model outputs.
 
 ## Requirements
 The code is developed using python 3.7.1 on Ubuntu 16.04. NVIDIA GPUs ared needed to train and test. 
-See [`requirements.txt`](requirements.txt) for other dependencies.
+See [`requirements.txt`](requirements.txt) or ['environment.yml'](environment.yml) for other dependencies.
 
 ## Quick start
 ### Installation
@@ -50,9 +50,13 @@ See [`requirements.txt`](requirements.txt) for other dependencies.
    <https://github.com/Microsoft/human-pose-estimation.pytorch> to disable cudnn's implementation of 
    BatchNorm layer. We encourage you to use higher pytorch's version(>=v1.0.0)_
 2. Clone this repo, and we will call the directory that you cloned as `${ROOT}`
-3. Install dependencies.
+3. Install dependencies using `pip`.
    ```
    pip install -r requirements.txt
+   ```
+   or create a new `conda` env:
+   ```
+   conda env create -f environment.yml
    ```
 4. Download annotation files from [GoogleDrive](https://drive.google.com/open?id=147AlIWRv9QDmp5pGjwG2yMWEG_2-E2ai) 
 (150 MB) as a zip file under `${ROOT}` folder. Run below commands to unzip them.
